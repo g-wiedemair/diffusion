@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "diffusion"
+  site-url: "https://g-wiedemair.github.io/diffusion"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/g-wiedemair/diffusion"
