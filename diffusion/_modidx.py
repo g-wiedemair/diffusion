@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://g-wiedemair.github.io',
                 'git_url': 'https://github.com/g-wiedemair/diffusion',
                 'lib_path': 'diffusion'},
-  'syms': {'diffusion.core': {'diffusion.core.foo': ('core.html#foo', 'diffusion/core.py')}}}
+  'syms': { 'diffusion.core': {'diffusion.core.foo': ('core.html#foo', 'diffusion/core.py')},
+            'diffusion.training': { 'diffusion.training.accuracy': ('minibatch.html#accuracy', 'diffusion/training.py'),
+                                    'diffusion.training.fit': ('minibatch.html#fit', 'diffusion/training.py'),
+                                    'diffusion.training.get_dls': ('minibatch.html#get_dls', 'diffusion/training.py')}}}
